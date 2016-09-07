@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+}
+
+h1.welcome {
+	margin-left: 3.75em;
+	font-size: 36pt;
+}
+
+#login {
+	line-height: 60%;
+	float: right;
+}
+
+table.post {
+	border: 1px solid;
+}
+
+table.post th{
+	border: 1px solid;
+}
+
+table.post td{
+	border: 1px solid;
+	height: 100px;
+	width: 450px;
+}
+
+div#postContainer {
+	width: 450px;
+	text-align: center;
+}
+
+#poster {
+	font-weight: bold;
+}
+
+input[type] {
+	color: rgb(228,209,17);
+	background: rgb(59,116,116);
+	border: 2px solid rgb(228,209,17);
+}
+
+input[type="submit"]:hover {
+	text-decoration: underline;
+}

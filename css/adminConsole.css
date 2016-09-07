@@ -1,0 +1,80 @@
+body {
+	text-decoration: none;
+	color: rgb(228,209,17);
+	background: rgb(59,116,116);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(228,209,17);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input[type] {
+	color: rgb(228,209,17);
+	background: rgb(59,116,116);
+	border: 2px solid rgb(228,209,17);
+}
+
+input[type="submit"] {
+	font-weight: bold;
+}
+
+input[type="submit"]:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+textarea{
+	color: rgb(228,209,17);
+	background: rgb(59,116,116);
+	border: 2px solid rgb(228,209,17);
+}
+
+table#users {
+	border: 2px solid;
+	text-align: center;
+	float: right;
+}
+
+table#users th {
+	font-size: 18pt;
+}
+
+table#users td {
+	border: 2px solid;
+	padding: 10px;
+}
+
+table#posts {
+	border: 2px solid;
+	text-align: center;
+}
+
+table#posts th {
+	font-size: 18pt;
+}
+
+table#posts td {
+	border: 2px solid;
+	padding: 10px;
+}
+
+div#postsContainer {
+	float: right;
+	text-align: center;
+	padding: 10px;
+}
+
+div#usersContainer {
+	float: right;
+	text-align: center;
+	padding: 10px;
+}
+
+div#tablesContainer {
+	margin-left: 25em;
+}

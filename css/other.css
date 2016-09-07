@@ -1,0 +1,40 @@
+body {
+	text-decoration: none;
+	color: rgb(228,209,17);
+	background: rgb(59,116,116);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(228,209,17);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.postbox {
+	border: 2px solid rgb(228,209,17);
+	color: rgb(228,209,17);
+	background: rgb(59,116,116);
+	width: 250px;
+	height: auto;
+}
+
+#updated {
+	font-size: 36pt;
+}
+
+#wrongpass {
+	font-size: 24pt;
+}
+
+input[type] {
+	color: rgb(228,209,17);
+	background: rgb(59,116,116);
+	border: 2px solid rgb(228,209,17);
+}
+
+input[type="submit"]:hover {
+	text-decoration: underline;
+}
